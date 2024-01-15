@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gen": "encore gen client uptime-9zai --output=./src/clients.ts"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.2",
